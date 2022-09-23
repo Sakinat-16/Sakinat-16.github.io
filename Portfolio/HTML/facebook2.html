@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="/css/facebook.css">
+    <style>
+        body{background-image: url(/facebook.html);
+        position: static;}
+         input[type=submit]{
+            background-color: rgba(23, 218, 82, 0.952);
+            color: white;
+            font-size: 20px;
+            width: 40%;
+            height: 15%;
+            padding:10px 50px;
+            margin: 0% 30%;
+            box-sizing: border-box;
+            border: 1px solid #ccc;     
+            border-radius: 7px 7px;
+            outline: none;
+            text-align: center; }
+    </style>
+</head>
+<body>
+    <section class="sec3">
+        <form id="SignUp">
+            <h1>Sign Up <a href="facebook.html" target="_self"><img src="/Images2/cross.png" style="float:right ;"></a></h1>
+            <p>It's quick and easy</p>
+            <hr>
+            <label for="fname"></label>
+            <input type="text" id="fname" placeholder="First Name">
+            <label for="Lname"></label>
+            <input type="text" id="Lname" placeholder="Last Name"><br>
+            <label for="emailortel"></label>
+            <input type="email tel" id="emailortel" placeholder="Mobile Number or email address"><br>
+            <label for="passwd"></label>
+            <input type="password" id="passwd" placeholder="New password"><br>
+            <label for="DOB"> Date of Birth</label><br>
+            <input type="number" id="DOB" value="20" min="1" max="31">
+            <input type="month" id="DOB" value="Sep">
+            <input type="year" id="DOB" value="2022"><br>
+            <label for="gender">Gender</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="custom" name="gender" value="Custom">
+            <label for="custom">Custom</label>
+            <p>People who use our service may have uploaded your contact information to
+            Facebook.<strong> Learn more</strong></p>
+            <P>By clicking Sign Up, you agree to our <strong>Terms, Privacy and Cookies Policy.</strong>You
+            may receive SMS notifications from us and can opt out at any time. </P>
+
+            <input type="submit" value="Sign Up">
+
+        </form>
+        </section>
+</body>
+</html>
