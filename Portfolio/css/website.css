@@ -1,6 +1,6 @@
 body{margin: 0;
     background-color: white;
-    background-image: url(/Images2/background.jpg);
+    background-image: url(../Images2/background.jpg);
     background-repeat: no-repeat;
         background-position: top;
         background-size:1500px 900px;
@@ -21,7 +21,7 @@ body{margin: 0;
         font-size: 20px; color: black;}
     .div2{margin:0 0 0 0;padding: 50px;
         height: 400px; width: 92.5%;
-        background-image: url(/Images2/tile1.png);
+        background-image: url(../Images2/tile1.png);
     }
     h3{
         clear: left;}
@@ -74,7 +74,7 @@ ul{
     
 .img3{border-radius: 50%;
     padding:5px;}
-.footr{background-image: url(/Images2/tile2.png);
+.footr{background-image: url(../Images2/tile2.png);
     background-size: cover;
     width: auto; height: 300px;
 }
