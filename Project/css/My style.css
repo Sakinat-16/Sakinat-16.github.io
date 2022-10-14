@@ -1,0 +1,35 @@
+body { background-color:whitesmoke;
+    background-image: url("image/white3.jpg");
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;  
+}
+
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva;
+    
+    font-size: 40px; 
+    border: none;
+    margin: 30px 30px ;
+    
+    text-align: center;
+    text-decoration: solid;}
+p{
+    margin: auto;
+    text-align: justify;
+    text-decoration: solid;
+    font: 'courier small-caps bold 12px/30px';
+    word-spacing: 7px;
+    line-height: 1.5;
+}
+ol{
+    font-size: 20px;
+}
+
+    
+    
+    
+    
+
