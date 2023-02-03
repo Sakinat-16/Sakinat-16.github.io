@@ -1,0 +1,80 @@
+body{margin: 0;
+    background-color: white;
+    background-image: url(/Images2/background.jpg);
+    background-repeat: no-repeat;
+        background-position: top;
+        background-size:1500px 900px;
+        background-attachment: fixed;
+   
+}
+
+.div{
+        margin: 0px 0px;
+        padding:170px 50px;
+        height: 200px; width: 90%;
+                
+   }
+.center{
+        text-align: center;
+        font-family: 'lucida handwriting' cursive;
+        font-style: italic;
+        font-size: 20px; color: black;}
+    .div2{margin:0 0 0 0;padding: 50px;
+        height: 400px; width: 92.5%;
+        background-image: url(/Images2/tile1.png);
+    }
+    h3{
+        clear: left;}
+
+    .img{ 
+        border-radius: 50%;
+    padding:5px;
+    border: 1px solid green;}
+    .img2{border: 1px solid white}
+
+    .imgr{padding: 5px;
+        border: 1px solid black;
+    }
+    .div3{
+    background-color:white;
+    margin:0 0 0 0; height:500px; width:auto;
+    }
+
+    p{text-align: center;}
+    h3{text-align: center;color:aqua; font-size:30px}
+    h2{text-align: center;color:aqua;font-size:30px}
+    h4{text-align: center;color:aqua;font-size:25px}
+    
+
+ul{
+    background-color: whitesmoke;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    border-bottom: 2px solid black;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+    li{float: left;
+}
+    li a{
+        display:block;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        padding: 20px 20px;
+        margin: 0;
+        font-size: 20px;
+    }
+    li a:hover{
+        background-color: gray;}
+        /* change the link color to red on hover*/
+    
+.img3{border-radius: 50%;
+    padding:5px;}
+.footr{background-image: url(/Images2/tile2.png);
+    background-size: cover;
+    width: auto; height: 300px;
+}
